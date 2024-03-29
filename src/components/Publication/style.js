@@ -4,21 +4,13 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         borderRadius: 8,
-        paddingHorizontal: 12,
-        shadowColor: "#000",
-        shadowOffset: {
-            width: 0,
-            height: 3,
-        },
-        shadowOpacity: 0.59,
-        shadowRadius: 4.65,
-
-        elevation: 20,
+        paddingHorizontal: 4,
     },
     wordsContainer: {
         flexDirection: "row",
-        backgroundColor: '#F8F8F8',
-        borderTopRightRadius: 30,
+        backgroundColor: '#ffffff',
+        borderWidth: 2,
+        borderColor: '#ffffff'
     },
     word: {
         flex: 1,
@@ -26,25 +18,27 @@ export const styles = StyleSheet.create({
         fontFamily: 'Inter-Regular',
         textAlign: 'center',
         color: '#110B11',
-        paddingVertical: 8
+        paddingVertical: 12
     },
     enwrdstyle: {
-        borderRightWidth: 1,
+        borderRightWidth: 2,
         borderColor: '#E2E2E2'
     },
     eswrdstyle: {
-        borderLeftWidth: 1,
+        borderLeftWidth: 2,
         borderColor: '#E2E2E2'
     },
     exampleContainer: {
     },
     exampleEn: {
-        backgroundColor: '#F8F8F8',
+        backgroundColor: '#ffffff',
     },
     exampleEs: {
-        backgroundColor: '#F8F8F8',
-        borderBottomLeftRadius: 30,
-        borderBottomRightRadius: 30
+        backgroundColor: '#ffffff',
+        borderBottomLeftRadius: 12,
+        borderBottomRightRadius: 12,
+        borderWidth: 2,
+        borderColor: '#ffffff'
     },
     exampletitle: {
         fontSize: 12,
@@ -60,7 +54,7 @@ export const styles = StyleSheet.create({
         fontFamily: 'Inter-Light',
         color: '#110B11',
         textAlign: 'center',
-        paddingBottom: 16,
+        paddingBottom: 12,
         paddingHorizontal: 24
     },
 })

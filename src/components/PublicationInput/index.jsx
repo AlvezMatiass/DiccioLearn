@@ -12,7 +12,7 @@ const PublicationInput = ({whatText, setWhatText, text}) => {
                 onChangeText={setWhatText}
                 value={whatText}
                 placeholder={text}
-                maxLength={100}
+                maxLength={140}
                 />
             </View>
         </View>

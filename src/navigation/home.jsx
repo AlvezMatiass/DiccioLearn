@@ -14,7 +14,7 @@ function HomeNavigator() {
                 headerShown: false,
             }}/>
             <Stack.Screen name="Settings" component={Settings} options={{
-                animation: 'simple_push',
+                animation: 'slide_from_right',
             }}/>
         </Stack.Navigator>
     )

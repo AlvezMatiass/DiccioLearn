@@ -7,9 +7,6 @@ const Settings = ( ) => {
             <TouchableOpacity><Text style={styles.settingText}>Add Words</Text></TouchableOpacity>
             <TouchableOpacity><Text style={styles.settingText}>Notificaciones</Text></TouchableOpacity>
             <TouchableOpacity><Text style={styles.settingText}>Terminos y condiciones</Text></TouchableOpacity>
-            <TouchableOpacity><Text style={styles.settingText}>Hola</Text></TouchableOpacity>
-            <TouchableOpacity><Text style={styles.settingText}>Hola</Text></TouchableOpacity>
-            <TouchableOpacity><Text style={styles.settingText}>Hola</Text></TouchableOpacity>
         </View>
     )
 }

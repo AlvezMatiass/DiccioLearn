@@ -73,19 +73,25 @@ const Home = ({ navigation }) => {
         <View style={styles.container}>
             <AddPublication onHandlerNavigation={onHandlerNavigation}/>
             <SelectThings handleReloadWords={handleReloadWords} onHandlerNavigationSetting={onHandlerNavigationSetting} />
-            <FlatList 
-            data={randomWords}
-            renderItem={({item}) => (
-                <View style={styles.publiContainer}>
-                    <Publication
-                    wordEn={item.enword}
-                    wordEs={item.esword}
-                    exampleEn={item.enphrase}
-                    exampleEs={item.esphrase} />
+                <View style={styles.relleno}>
+                    <Text style={styles.textRelleno}>relleno</Text>
                 </View>
-            )}
-            keyExtractor={(item, index) => index.toString()}
-            />
+                <FlatList 
+                data={randomWords}
+                style={styles.flatlist}
+                showsVerticalScrollIndicator={false}
+                renderItem={({item}) => (
+                    <View style={styles.dailyContainer}>
+                        <Publication
+                        wordEn={item.enword}
+                        wordEs={item.esword}
+                        exampleEn={item.enphrase}
+                        exampleEs={item.esphrase} />
+                    </View>
+                    
+                )}
+                keyExtractor={(item, index) => index.toString()}
+                />
         </View>
     )
 }

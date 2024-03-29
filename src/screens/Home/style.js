@@ -3,18 +3,24 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#efefef',
+        backgroundColor: '#e5e5e5',
     },
-    publiContainer: {
-        marginTop: 18,
-        marginBottom: 12
+    flatlist: {
+        paddingBottom: 12
+    },
+    relleno: {
+        backgroundColor: '#e5e5e5',
+        height: 170,
+        paddingHorizontal: 30,
+        borderBottomLeftRadius: 50,
+        borderBottomRightRadius: 50,
+    },
+    textRelleno: {
+        color: '#e5e5e5'
     },
     dailyContainer: {
-        marginHorizontal: 12,
-        backgroundColor: '#F8F8F8',
         paddingHorizontal: 12,
-        paddingVertical: 6,
-        borderRadius: 12
+        marginVertical: 12
     },
     dailyText: {
         color: '#110B11',

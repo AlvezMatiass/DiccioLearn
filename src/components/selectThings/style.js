@@ -2,19 +2,21 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container: {
-        height: 240,
-        gap: 12,
+        height: 160,
+        width: '100%',
+        gap: 24,
         justifyContent: 'center',
         alignItems: 'flex-end',
+        paddingBottom: 24,
         flexDirection: 'row',
-        paddingBottom: 36,
-        backgroundColor: '#efefef',
+        position: 'absolute',
+        zIndex: 2
     },
     secundaryThing: {
-        width: 60,
-        height: 60,
+        width: 65,
+        height: 65,
         borderRadius: 100,
-        backgroundColor: '#F8F8F8',
+        backgroundColor: '#ffffff',
         justifyContent: 'center',
         alignItems: 'center',
         shadowColor: "#000",
@@ -26,12 +28,14 @@ export const styles = StyleSheet.create({
         shadowRadius: 7.49,
 
         elevation: 12,
+        borderWidth: 2,
+        borderColor: '#ffffff'
     },
     test: {
-        height: 110,
-        width: 110,
+        height: 105,
+        width: 105,
         borderRadius: 100,
-        backgroundColor: '#F8F8F8',
+        backgroundColor: '#ffffff',
         justifyContent: 'center',
         alignItems: 'center',
         shadowColor: "#000",
@@ -43,6 +47,8 @@ export const styles = StyleSheet.create({
         shadowRadius: 4.65,
 
         elevation: 6,
+        borderWidth: 2,
+        borderColor: '#ffffff'
     },
     iconColor: {
         color: '#E2E2E2'
